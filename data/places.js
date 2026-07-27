@@ -10,8 +10,8 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1225,
-    "heroImage": "./assets/images/places/bormio-centro.webp",
-    "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bormio%20dai%20Bagni%20Vecchi.jpg?width=1600",
+    "fallbackImage": "./assets/images/places/bormio-centro.webp",
     "description": "Centro medievale raccolto, ideale da visitare a piedi tra piazze, chiese, portali e botteghe.",
     "highlights": [
       "Piazza Cavour e Kuerc",
@@ -34,42 +34,10 @@ export const places = [
       "Orari e apertura",
       "Viabilità e accessi",
       "Prenotazioni, pedaggi o navette"
-    ]
-  },
-  {
-    "id": "forte-venini",
-    "name": "Forte Venini di Oga",
-    "area": "Oga",
-    "category": "storia",
-    "coordinates": {
-      "latitude": 46.4638,
-      "longitude": 10.3298,
-      "approximate": true
-    },
-    "altitudeMeters": 1730,
-    "heroImage": "./assets/images/places/forte-venini.webp",
-    "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "description": "Fortificazione della Prima guerra mondiale con panorama sulla conca di Bormio.",
-    "highlights": [
-      "Opere militari",
-      "Vista sulla valle",
-      "Passeggiata breve"
     ],
-    "averageVisit": "1–2 ore",
-    "difficulty": "Facile",
-    "bestTime": "Mattina, salvo diversa indicazione",
-    "officialUrl": "https://www.bormio.eu/",
-    "maps": {
-      "apple": "https://maps.apple.com/?q=Forte+Venini+di+Oga&ll=46.4638,10.3298",
-      "google": "https://www.google.com/maps/search/?api=1&query=46.4638,10.3298",
-      "directionsApple": "https://maps.apple.com/?daddr=46.4638,10.3298&dirflg=d",
-      "directionsGoogle": "https://www.google.com/maps/dir/?api=1&destination=46.4638,10.3298"
-    },
-    "verifyBeforeVisit": [
-      "Orari e apertura",
-      "Viabilità e accessi",
-      "Prenotazioni, pedaggi o navette"
-    ]
+    "imageCredit": "Wikimedia Commons – panorama reale di Bormio",
+    "imageLicense": "Licenza indicata nella pagina del file",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Bormio_dai_Bagni_Vecchi.jpg"
   },
   {
     "id": "bormio-2000",
@@ -82,8 +50,8 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1952,
-    "heroImage": "./assets/images/places/bormio-2000.webp",
-    "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bormio%20dai%20Bagni%20Vecchi.jpg?width=1600",
+    "fallbackImage": "./assets/images/places/bormio-2000.webp",
     "description": "Area panoramica raggiungibile con strada o impianti, adatta a soste e passeggiate semplici.",
     "highlights": [
       "Panorama",
@@ -104,7 +72,10 @@ export const places = [
       "Orari e apertura",
       "Viabilità e accessi",
       "Prenotazioni, pedaggi o navette"
-    ]
+    ],
+    "imageCredit": "Wikimedia Commons – panorama reale di Bormio",
+    "imageLicense": "Licenza indicata nella pagina del file",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Bormio_dai_Bagni_Vecchi.jpg"
   },
   {
     "id": "livigno-centro",
@@ -117,8 +88,8 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1816,
-    "heroImage": "./assets/images/places/livigno-centro.webp",
-    "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Livigno%20Lago%20di%20Livigno%2018.jpg?width=1600",
+    "fallbackImage": "./assets/images/places/livigno-centro.webp",
     "description": "Località d’alta quota con lungo centro commerciale e servizi turistici. A Ferragosto partire molto presto.",
     "highlights": [
       "Centro",
@@ -140,7 +111,10 @@ export const places = [
       "Orari e apertura",
       "Viabilità e accessi",
       "Prenotazioni, pedaggi o navette"
-    ]
+    ],
+    "imageCredit": "Zairon, Wikimedia Commons",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Livigno_Lago_di_Livigno_18.jpg"
   },
   {
     "id": "lago-livigno",
@@ -153,8 +127,8 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1805,
-    "heroImage": "./assets/images/places/lago-livigno.webp",
-    "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Livigno%20Lago%20di%20Livigno%2018.jpg?width=1600",
+    "fallbackImage": "./assets/images/places/lago-livigno.webp",
     "description": "Bacino alpino a nord del paese, adatto a una passeggiata panoramica.",
     "highlights": [
       "Lungolago",
@@ -175,7 +149,10 @@ export const places = [
       "Orari e apertura",
       "Viabilità e accessi",
       "Prenotazioni, pedaggi o navette"
-    ]
+    ],
+    "imageCredit": "Zairon, Wikimedia Commons",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Livigno_Lago_di_Livigno_18.jpg"
   },
   {
     "id": "bagni-vecchi",
@@ -188,8 +165,8 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1375,
-    "heroImage": "./assets/images/places/bagni-vecchi.webp",
-    "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bagni%20vecchi%20di%20Bormio.JPG?width=1600",
+    "fallbackImage": "./assets/images/places/bagni-vecchi.webp",
     "description": "Complesso termale storico con vasche, grotte e viste panoramiche.",
     "highlights": [
       "Percorsi termali",
@@ -210,42 +187,10 @@ export const places = [
       "Orari e apertura",
       "Viabilità e accessi",
       "Prenotazioni, pedaggi o navette"
-    ]
-  },
-  {
-    "id": "bagni-nuovi",
-    "name": "QC Terme Bagni Nuovi",
-    "area": "Valdidentro",
-    "category": "terme",
-    "coordinates": {
-      "latitude": 46.485,
-      "longitude": 10.3488,
-      "approximate": true
-    },
-    "altitudeMeters": 1330,
-    "heroImage": "./assets/images/places/bagni-nuovi.webp",
-    "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "description": "Centro termale ampio con giardini e numerose vasche interne ed esterne.",
-    "highlights": [
-      "Giardini",
-      "Vasche esterne",
-      "Percorso benessere"
     ],
-    "averageVisit": "Mezza giornata",
-    "difficulty": "Relax",
-    "bestTime": "Mattina, salvo diversa indicazione",
-    "officialUrl": "https://www.qcterme.com/it/bormio/qc-terme-bagni-nuovi",
-    "maps": {
-      "apple": "https://maps.apple.com/?q=QC+Terme+Bagni+Nuovi&ll=46.485,10.3488",
-      "google": "https://www.google.com/maps/search/?api=1&query=46.485,10.3488",
-      "directionsApple": "https://maps.apple.com/?daddr=46.485,10.3488&dirflg=d",
-      "directionsGoogle": "https://www.google.com/maps/dir/?api=1&destination=46.485,10.3488"
-    },
-    "verifyBeforeVisit": [
-      "Orari e apertura",
-      "Viabilità e accessi",
-      "Prenotazioni, pedaggi o navette"
-    ]
+    "imageCredit": "Salento81, Wikimedia Commons",
+    "imageLicense": "Licenza indicata nella pagina del file",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Bagni_vecchi_di_Bormio.JPG"
   },
   {
     "id": "torri-fraele",
@@ -258,8 +203,8 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1941,
-    "heroImage": "./assets/images/places/torri-fraele.webp",
-    "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Laghi%20di%20cancano.JPG?width=1600",
+    "fallbackImage": "./assets/images/places/torri-fraele.webp",
     "description": "Torri medievali all’ingresso della Valle di Fraele.",
     "highlights": [
       "Vista sui tornanti",
@@ -279,7 +224,10 @@ export const places = [
       "Orari e apertura",
       "Viabilità e accessi",
       "Prenotazioni, pedaggi o navette"
-    ]
+    ],
+    "imageCredit": "Wikimedia Commons",
+    "imageLicense": "Licenza indicata nella pagina del file",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Laghi_di_cancano.JPG"
   },
   {
     "id": "lago-scale",
@@ -292,8 +240,8 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1940,
-    "heroImage": "./assets/images/places/lago-scale.webp",
-    "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Laghi%20di%20cancano.JPG?width=1600",
+    "fallbackImage": "./assets/images/places/lago-scale.webp",
     "description": "Piccolo lago naturale vicino alle Torri di Fraele.",
     "highlights": [
       "Sponda panoramica",
@@ -313,7 +261,10 @@ export const places = [
       "Orari e apertura",
       "Viabilità e accessi",
       "Prenotazioni, pedaggi o navette"
-    ]
+    ],
+    "imageCredit": "Wikimedia Commons",
+    "imageLicense": "Licenza indicata nella pagina del file",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Laghi_di_cancano.JPG"
   },
   {
     "id": "laghi-cancano",
@@ -326,8 +277,8 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1900,
-    "heroImage": "./assets/images/places/laghi-cancano.webp",
-    "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Laghi%20di%20cancano.JPG?width=1600",
+    "fallbackImage": "./assets/images/places/laghi-cancano.webp",
     "description": "Grandi bacini artificiali circondati da strade bianche e passeggiate con poco dislivello. Accesso estivo spesso regolamentato.",
     "highlights": [
       "Diga di Cancano",
@@ -348,7 +299,10 @@ export const places = [
       "Orari e apertura",
       "Viabilità e accessi",
       "Prenotazioni, pedaggi o navette"
-    ]
+    ],
+    "imageCredit": "Wikimedia Commons",
+    "imageLicense": "Licenza indicata nella pagina del file",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Laghi_di_cancano.JPG"
   },
   {
     "id": "lago-san-giacomo",
@@ -361,8 +315,8 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1949,
-    "heroImage": "./assets/images/places/lago-san-giacomo.webp",
-    "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lago%20di%20San%20Giacomo.jpg?width=1600",
+    "fallbackImage": "./assets/images/places/lago-san-giacomo.webp",
     "description": "Bacino superiore della Valle di Fraele, ampio e panoramico.",
     "highlights": [
       "Diga",
@@ -383,7 +337,10 @@ export const places = [
       "Orari e apertura",
       "Viabilità e accessi",
       "Prenotazioni, pedaggi o navette"
-    ]
+    ],
+    "imageCredit": "Wikimedia Commons",
+    "imageLicense": "Licenza indicata nella pagina del file",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Lago_di_San_Giacomo.jpg"
   },
   {
     "id": "tirano",
@@ -396,8 +353,8 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 441,
-    "heroImage": "./assets/images/places/tirano.webp",
-    "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tirano-Oldtown-01.jpg?width=1600",
+    "fallbackImage": "./assets/images/places/tirano.webp",
     "description": "Capolinea italiano della Ferrovia del Bernina; utile abbinare Santuario e centro storico.",
     "highlights": [
       "Stazione RhB",
@@ -418,7 +375,10 @@ export const places = [
       "Orari e apertura",
       "Viabilità e accessi",
       "Prenotazioni, pedaggi o navette"
-    ]
+    ],
+    "imageCredit": "Asurnipal, Wikimedia Commons",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Tirano-Oldtown-01.jpg"
   },
   {
     "id": "alp-grum",
@@ -431,8 +391,8 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 2091,
-    "heroImage": "./assets/images/places/alp-grum.webp",
-    "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Alp%20Gr%C3%BCm.jpg?width=1600",
+    "fallbackImage": "./assets/images/places/alp-grum.webp",
     "description": "Stazione panoramica raggiungibile in treno, affacciata su Valposchiavo e ghiacciaio del Palü.",
     "highlights": [
       "Belvedere",
@@ -453,7 +413,10 @@ export const places = [
       "Orari e apertura",
       "Viabilità e accessi",
       "Prenotazioni, pedaggi o navette"
-    ]
+    ],
+    "imageCredit": "Tiia Monto, Wikimedia Commons",
+    "imageLicense": "Licenza indicata nella pagina del file",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Alp_Gr%C3%BCm.jpg"
   },
   {
     "id": "val-viola",
@@ -466,8 +429,8 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 2050,
-    "heroImage": "./assets/images/places/val-viola.webp",
-    "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Val%20Viola%20-%20Laghetto%20alpino.jpg?width=1600",
+    "fallbackImage": "./assets/images/places/val-viola.webp",
     "description": "Valle ampia con strada agro-silvo-pastorale, adatta a cammino semplice ma prolungato. Parcheggi e navette sono il punto critico.",
     "highlights": [
       "Arnoga",
@@ -489,7 +452,10 @@ export const places = [
       "Orari e apertura",
       "Viabilità e accessi",
       "Prenotazioni, pedaggi o navette"
-    ]
+    ],
+    "imageCredit": "Marco88bg, Wikimedia Commons",
+    "imageLicense": "Licenza indicata nella pagina del file",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Val_Viola_-_Laghetto_alpino.jpg"
   },
   {
     "id": "passo-stelvio",
@@ -502,8 +468,8 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 2757,
-    "heroImage": "./assets/images/places/passo-stelvio.webp",
-    "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bormio%20dai%20Bagni%20Vecchi.jpg?width=1600",
+    "fallbackImage": "./assets/images/places/passo-stelvio.webp",
     "description": "Usato come collegamento verso la Val Venosta, senza visita dedicata. Strada impegnativa con molti tornanti.",
     "highlights": [
       "Controllo meteo",
@@ -524,7 +490,10 @@ export const places = [
       "Orari e apertura",
       "Viabilità e accessi",
       "Prenotazioni, pedaggi o navette"
-    ]
+    ],
+    "imageCredit": "Wikimedia Commons – panorama della zona di Bormio",
+    "imageLicense": "Licenza indicata nella pagina del file",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Bormio_dai_Bagni_Vecchi.jpg"
   },
   {
     "id": "mustair",
@@ -537,8 +506,8 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1247,
-    "heroImage": "./assets/images/places/mustair.webp",
-    "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/M%C3%BCstair%20Kloster%20St.%20Johann%204.JPG?width=1600",
+    "fallbackImage": "./assets/images/places/mustair.webp",
     "description": "Monastero benedettino patrimonio UNESCO con importanti affreschi altomedievali.",
     "highlights": [
       "Monastero",
@@ -559,7 +528,10 @@ export const places = [
       "Orari e apertura",
       "Viabilità e accessi",
       "Prenotazioni, pedaggi o navette"
-    ]
+    ],
+    "imageCredit": "Zairon, Wikimedia Commons",
+    "imageLicense": "Licenza indicata nella pagina del file",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:M%C3%BCstair_Kloster_St._Johann_4.JPG"
   },
   {
     "id": "castel-coira",
@@ -572,8 +544,8 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 921,
-    "heroImage": "./assets/images/places/castel-coira.webp",
-    "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Churburg%2010.jpg?width=1600",
+    "fallbackImage": "./assets/images/places/castel-coira.webp",
     "description": "Castello rinascimentale celebre per l’armeria; gli orari delle visite sono vincolanti.",
     "highlights": [
       "Armeria",
@@ -594,7 +566,10 @@ export const places = [
       "Orari e apertura",
       "Viabilità e accessi",
       "Prenotazioni, pedaggi o navette"
-    ]
+    ],
+    "imageCredit": "Nxr-at, Wikimedia Commons",
+    "imageLicense": "Licenza indicata nella pagina del file",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Churburg_10.jpg"
   },
   {
     "id": "glorenza",
@@ -607,8 +582,8 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 907,
-    "heroImage": "./assets/images/places/glorenza.webp",
-    "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Glurns%20Glorenza%2020220903%200004.jpg?width=1600",
+    "fallbackImage": "./assets/images/places/glorenza.webp",
     "description": "Piccola città murata della Val Venosta, perfetta per una passeggiata dopo Castel Coira.",
     "highlights": [
       "Porte",
@@ -629,7 +604,10 @@ export const places = [
       "Orari e apertura",
       "Viabilità e accessi",
       "Prenotazioni, pedaggi o navette"
-    ]
+    ],
+    "imageCredit": "Wikimedia Commons",
+    "imageLicense": "Licenza indicata nella pagina del file",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Glurns_Glorenza_20220903_0004.jpg"
   },
   {
     "id": "lago-resia",
@@ -642,8 +620,8 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1498,
-    "heroImage": "./assets/images/places/lago-resia.webp",
-    "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Il%20campanile%20di%20Curon%20Venosta%2C%20nel%20lago%20di%20Resia.%20-%20panoramio%20-%20Carlo%20Pelagalli%20%281%29.jpg?width=1600",
+    "fallbackImage": "./assets/images/places/lago-resia.webp",
     "description": "Grande lago artificiale famoso per il campanile della vecchia Curon.",
     "highlights": [
       "Campanile sommerso",
@@ -664,7 +642,10 @@ export const places = [
       "Orari e apertura",
       "Viabilità e accessi",
       "Prenotazioni, pedaggi o navette"
-    ]
+    ],
+    "imageCredit": "Carlo Pelagalli, Wikimedia Commons",
+    "imageLicense": "Licenza indicata nella pagina del file",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Il_campanile_di_Curon_Venosta,_nel_lago_di_Resia._-_panoramio_-_Carlo_Pelagalli_(1).jpg"
   },
   {
     "id": "curon",
@@ -677,8 +658,8 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1520,
-    "heroImage": "./assets/images/places/curon.webp",
-    "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lago%20di%20Resia%20%28Reschensee%29%20%2814990159251%29.jpg?width=1600",
+    "fallbackImage": "./assets/images/places/curon.webp",
     "description": "Paese legato alla storia dell’abitato sommerso dalla diga.",
     "highlights": [
       "Chiesa nuova",
@@ -699,7 +680,10 @@ export const places = [
       "Orari e apertura",
       "Viabilità e accessi",
       "Prenotazioni, pedaggi o navette"
-    ]
+    ],
+    "imageCredit": "Sander van der Wel, Wikimedia Commons",
+    "imageLicense": "Licenza indicata nella pagina del file",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Lago_di_Resia_(Reschensee)_(14990159251).jpg"
   },
   {
     "id": "malles",
@@ -712,8 +696,8 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1050,
-    "heroImage": "./assets/images/places/malles.webp",
-    "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Glurns%20Glorenza%2020220903%200004.jpg?width=1600",
+    "fallbackImage": "./assets/images/places/malles.webp",
     "description": "Borgo dell’alta Val Venosta con torri e chiese, tappa facoltativa.",
     "highlights": [
       "Centro",
@@ -734,7 +718,10 @@ export const places = [
       "Orari e apertura",
       "Viabilità e accessi",
       "Prenotazioni, pedaggi o navette"
-    ]
+    ],
+    "imageCredit": "Wikimedia Commons – Alta Val Venosta",
+    "imageLicense": "Licenza indicata nella pagina del file",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Glurns_Glorenza_20220903_0004.jpg"
   },
   {
     "id": "st-moritz",
@@ -747,8 +734,8 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1822,
-    "heroImage": "./assets/images/places/st-moritz.webp",
-    "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lake%20St.%20Moritz.jpg?width=1600",
+    "fallbackImage": "./assets/images/places/st-moritz.webp",
     "description": "Località elegante sul lago. Conviene scegliere un parcheggio e muoversi a piedi.",
     "highlights": [
       "Lago",
@@ -769,7 +756,10 @@ export const places = [
       "Orari e apertura",
       "Viabilità e accessi",
       "Prenotazioni, pedaggi o navette"
-    ]
+    ],
+    "imageCredit": "Tiia Monto, Wikimedia Commons",
+    "imageLicense": "Licenza indicata nella pagina del file",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Lake_St._Moritz.jpg"
   },
   {
     "id": "silvaplana",
@@ -782,8 +772,8 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1815,
-    "heroImage": "./assets/images/places/silvaplana.webp",
-    "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lake%20Silvaplana%20and%20St.%20Moritz-Bad%20as%20seen%20from%20Muttaun%202.jpg?width=1600",
+    "fallbackImage": "./assets/images/places/silvaplana.webp",
     "description": "Borgo sul lago, adatto a una passeggiata pianeggiante.",
     "highlights": [
       "Lungolago",
@@ -804,7 +794,10 @@ export const places = [
       "Orari e apertura",
       "Viabilità e accessi",
       "Prenotazioni, pedaggi o navette"
-    ]
+    ],
+    "imageCredit": "Wikimedia Commons",
+    "imageLicense": "Licenza indicata nella pagina del file",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Lake_Silvaplana_and_St._Moritz-Bad_as_seen_from_Muttaun_2.jpg"
   },
   {
     "id": "sils-maria",
@@ -817,8 +810,8 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1809,
-    "heroImage": "./assets/images/places/sils-maria.webp",
-    "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "heroImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/2020-08-23%2014-12-38%20Schweiz%20Sils%20Segl%20Maria%20Sils%201851.3.jpg?width=1600",
+    "fallbackImage": "./assets/images/places/sils-maria.webp",
     "description": "Borgo tranquillo tra i laghi di Sils e Silvaplana.",
     "highlights": [
       "Centro",
@@ -839,6 +832,9 @@ export const places = [
       "Orari e apertura",
       "Viabilità e accessi",
       "Prenotazioni, pedaggi o navette"
-    ]
+    ],
+    "imageCredit": "Wikimedia Commons",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:2020-08-23_14-12-38_Schweiz_Sils_Segl_Maria_Sils_1851.3.jpg"
   }
 ];

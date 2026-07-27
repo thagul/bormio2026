@@ -35,19 +35,19 @@ export const parking = [
   },
   {
     "id": "terme-parking",
-    "destinationId": "bagni-nuovi",
-    "name": "Parcheggio struttura termale",
+    "destinationId": "bagni-vecchi",
+    "name": "Parcheggio indicato per i Bagni Vecchi",
     "coordinates": {
-      "latitude": 46.485,
-      "longitude": 10.3488
+      "latitude": 46.4896,
+      "longitude": 10.3537
     },
     "strategy": "Seguire la prenotazione e arrivare in anticipo.",
     "risk": "alto il 16 agosto",
     "maps": {
-      "apple": "https://maps.apple.com/?q=QC+Terme+Bormio&ll=46.485,10.3488",
-      "google": "https://www.google.com/maps/search/?api=1&query=46.485,10.3488",
-      "directionsApple": "https://maps.apple.com/?daddr=46.485,10.3488&dirflg=d",
-      "directionsGoogle": "https://www.google.com/maps/dir/?api=1&destination=46.485,10.3488"
+      "apple": "https://maps.apple.com/?q=QC+Terme+Bagni+Vecchi&ll=46.4896,10.3537",
+      "google": "https://www.google.com/maps/search/?api=1&query=46.4896,10.3537",
+      "directionsApple": "https://maps.apple.com/?daddr=46.4896,10.3537&dirflg=d",
+      "directionsGoogle": "https://www.google.com/maps/dir/?api=1&destination=46.4896,10.3537"
     }
   },
   {

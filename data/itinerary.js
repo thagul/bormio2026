@@ -40,8 +40,7 @@ export const itinerary = [
     "travel": "Spostamenti locali",
     "placeIds": [
       "bormio-2000",
-      "bormio-centro",
-      "forte-venini"
+      "bormio-centro"
     ],
     "parkingIds": [
       "bormio-centro-parking"
@@ -61,11 +60,6 @@ export const itinerary = [
         "time": "17:30",
         "title": "Bormio città",
         "description": "Centro storico, Piazza Cavour, Kuerc, Collegiata e Via Roma nelle ore più piacevoli."
-      },
-      {
-        "time": "facoltativo",
-        "title": "Forte Venini",
-        "description": "Alternativa da usare soltanto se interessa e se resta tempo."
       }
     ],
     "tips": [
@@ -120,13 +114,12 @@ export const itinerary = [
     "id": "2026-08-16",
     "date": "2026-08-16",
     "label": "Domenica 16 agosto",
-    "title": "Terme",
+    "title": "Bagni Vecchi",
     "heroPlaceId": "bagni-vecchi",
     "startTime": "10:30 o secondo prenotazione",
     "travel": "Spostamento locale",
     "placeIds": [
-      "bagni-vecchi",
-      "bagni-nuovi"
+      "bagni-vecchi"
     ],
     "parkingIds": [
       "terme-parking"
@@ -140,7 +133,7 @@ export const itinerary = [
       {
         "time": "prenotato",
         "title": "Terme",
-        "description": "Scegliere Bagni Vecchi oppure Bagni Nuovi e dedicare la giornata al relax."
+        "description": "Dedicare la giornata ai Bagni Vecchi e al relax."
       },
       {
         "time": "sera",

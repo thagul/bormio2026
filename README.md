@@ -66,3 +66,12 @@ Dopo l'aggiornamento:
 - 14 agosto: Bormio 2000 al mattino e centro di Bormio verso sera.
 - 20–21 agosto: proposta con pernottamento di una notte in Val Venosta.
 - Il programma è esplicitamente presentato come modificabile.
+
+
+## Versione 4 – fotografie reali
+
+- Rimossi completamente Bagni Nuovi e Forte Venini.
+- Il giorno delle terme è dedicato soltanto ai Bagni Vecchi.
+- Le fotografie dei luoghi provengono da Wikimedia Commons.
+- Le schede mostrano fonte e licenza delle fotografie.
+- Le vecchie illustrazioni locali restano come fallback in caso di mancato caricamento.
