@@ -150,3 +150,12 @@ Dopo l'aggiornamento:
 - Modalità scura completa con superfici, mappe, pulsanti e tab bar ottimizzati.
 - Cache PWA aggiornata con strategia stale-while-revalidate e fallback offline.
 - Supporto a `prefers-reduced-motion`.
+
+
+## Versione 13 – card interamente cliccabili
+
+- Tutte le card della sezione Luoghi sono cliccabili.
+- Tutte le card della sezione Food sono cliccabili.
+- Rimossi i pulsanti `Dettagli`, ora ridondanti.
+- Aggiunti effetti hover, pressione, focus da tastiera e freccia di navigazione.
+- Migliorata l'usabilità su iPhone.
