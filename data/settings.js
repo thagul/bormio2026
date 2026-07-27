@@ -18,7 +18,7 @@ export const settings = {
     "privacyNote": "Preferiti e checklist restano nel LocalStorage."
   },
   "disclaimer": [
-    "Orari, prezzi, accessi, navette e parcheggi possono cambiare.",
+    "Orari, accessi, navette, parcheggi e viabilità possono cambiare.",
     "Verificare sempre siti ufficiali e meteo.",
     "Coordinate approximate da ricontrollare prima della pubblicazione.",
     "Le immagini locali vanno aggiunte nei percorsi heroImage."

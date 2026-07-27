@@ -9,7 +9,6 @@ export const parking = [
     },
     "strategy": "Lasciare l’auto e visitare il centro a piedi.",
     "risk": "alto 14–16 agosto",
-    "cost": "variabile",
     "maps": {
       "apple": "https://maps.apple.com/?q=Parcheggio+Bormio+centro&ll=46.4696,10.369",
       "google": "https://www.google.com/maps/search/?api=1&query=46.4696,10.369",
@@ -25,9 +24,8 @@ export const parking = [
       "latitude": 46.5338,
       "longitude": 10.1375
     },
-    "strategy": "Arrivare entro le 8:00, non spostare più l’auto, usare piedi o bus.",
+    "strategy": "Con una partenza verso le 10, accettare un parcheggio periferico e poi usare piedi o trasporto locale.",
     "risk": "molto alto a Ferragosto",
-    "cost": "variabile",
     "maps": {
       "apple": "https://maps.apple.com/?q=Parcheggio+Livigno&ll=46.5338,10.1375",
       "google": "https://www.google.com/maps/search/?api=1&query=46.5338,10.1375",
@@ -45,7 +43,6 @@ export const parking = [
     },
     "strategy": "Seguire la prenotazione e arrivare in anticipo.",
     "risk": "alto il 16 agosto",
-    "cost": "verificare",
     "maps": {
       "apple": "https://maps.apple.com/?q=QC+Terme+Bormio&ll=46.485,10.3488",
       "google": "https://www.google.com/maps/search/?api=1&query=46.485,10.3488",
@@ -61,9 +58,8 @@ export const parking = [
       "latitude": 46.5355,
       "longitude": 10.304
     },
-    "strategy": "Partire 7:30–8:00; controllare pedaggio, navette e regolazione.",
+    "strategy": "Controllare accessi e navette; con partenza verso le 10 può essere necessario lasciare l’auto più lontano.",
     "risk": "alto",
-    "cost": "possibile accesso regolamentato",
     "maps": {
       "apple": "https://maps.apple.com/?q=Laghi+di+Cancano+parcheggio&ll=46.5355,10.304",
       "google": "https://www.google.com/maps/search/?api=1&query=46.5355,10.304",
@@ -81,7 +77,6 @@ export const parking = [
     },
     "strategy": "Arrivare 45–60 minuti prima del treno.",
     "risk": "medio-alto",
-    "cost": "variabile",
     "maps": {
       "apple": "https://maps.apple.com/?q=Parcheggio+stazione+Tirano&ll=46.2155,10.1667",
       "google": "https://www.google.com/maps/search/?api=1&query=46.2155,10.1667",
@@ -97,9 +92,8 @@ export const parking = [
       "latitude": 46.4728,
       "longitude": 10.2563
     },
-    "strategy": "Partire presto; controllare navetta, pedaggio e accesso autorizzato.",
+    "strategy": "Controllare navetta e accesso autorizzato; con partenza verso le 10 può essere necessario un punto di partenza meno vicino.",
     "risk": "alto",
-    "cost": "possibile pedaggio/navetta",
     "maps": {
       "apple": "https://maps.apple.com/?q=Arnoga+Val+Viola+parcheggio&ll=46.4728,10.2563",
       "google": "https://www.google.com/maps/search/?api=1&query=46.4728,10.2563",
@@ -117,7 +111,6 @@ export const parking = [
     },
     "strategy": "Prima tappa dopo lo Stelvio.",
     "risk": "medio",
-    "cost": "verificare",
     "maps": {
       "apple": "https://maps.apple.com/?q=Kloster+St+Johann+parking&ll=46.629,10.4497",
       "google": "https://www.google.com/maps/search/?api=1&query=46.629,10.4497",
@@ -135,7 +128,6 @@ export const parking = [
     },
     "strategy": "Arrivare 20–30 minuti prima del turno; breve salita a piedi.",
     "risk": "medio",
-    "cost": "verificare",
     "maps": {
       "apple": "https://maps.apple.com/?q=Churburg+parking&ll=46.663,10.5864",
       "google": "https://www.google.com/maps/search/?api=1&query=46.663,10.5864",
@@ -153,7 +145,6 @@ export const parking = [
     },
     "strategy": "Non entrare nel centro con l’auto.",
     "risk": "medio",
-    "cost": "variabile",
     "maps": {
       "apple": "https://maps.apple.com/?q=Glurns+Parkplatz&ll=46.6724,10.5552",
       "google": "https://www.google.com/maps/search/?api=1&query=46.6724,10.5552",
@@ -169,9 +160,8 @@ export const parking = [
       "latitude": 46.808,
       "longitude": 10.5248
     },
-    "strategy": "Arrivare al mattino.",
+    "strategy": "Parcheggiare presso Curon e visitare il lago a piedi.",
     "risk": "medio-alto",
-    "cost": "variabile",
     "maps": {
       "apple": "https://maps.apple.com/?q=Campanile+Curon+parcheggio&ll=46.808,10.5248",
       "google": "https://www.google.com/maps/search/?api=1&query=46.808,10.5248",
@@ -189,7 +179,6 @@ export const parking = [
     },
     "strategy": "Parcheggiare una volta e muoversi a piedi.",
     "risk": "alto il sabato",
-    "cost": "a pagamento",
     "maps": {
       "apple": "https://maps.apple.com/?q=Parkhaus+St+Moritz&ll=46.496,9.838",
       "google": "https://www.google.com/maps/search/?api=1&query=46.496,9.838",

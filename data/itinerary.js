@@ -6,13 +6,9 @@ export const itinerary = [
     "title": "Arrivo a Bormio",
     "heroPlaceId": "bormio-centro",
     "startTime": "sera",
-    "travel": "Arrivo",
+    "travel": "Arrivo e sistemazione",
     "placeIds": [
       "bormio-centro"
-    ],
-    "restaurantIds": [
-      "vecchia-combo",
-      "clem-pub"
     ],
     "parkingIds": [
       "bormio-centro-parking"
@@ -21,21 +17,16 @@ export const itinerary = [
       {
         "time": "sera",
         "title": "Check-in",
-        "description": "Lasciare l’auto."
+        "description": "Sistemazione con calma e auto lasciata presso l’alloggio o in un parcheggio comodo."
       },
       {
         "time": "20:00",
-        "title": "Passeggiata",
-        "description": "Piazza Cavour, Kuerc, Torre delle Ore e Via Roma."
-      },
-      {
-        "time": "21:00",
-        "title": "Cena",
-        "description": "Cena in centro."
+        "title": "Prima passeggiata",
+        "description": "Piazza Cavour, Kuerc, Torre delle Ore e Via Roma, senza un programma rigido."
       }
     ],
     "tips": [
-      "Nessuna attività vincolante."
+      "La serata resta volutamente libera e adattabile all’orario di arrivo."
     ],
     "checklistId": "arrival"
   },
@@ -43,42 +34,42 @@ export const itinerary = [
     "id": "2026-08-14",
     "date": "2026-08-14",
     "label": "Venerdì 14 agosto",
-    "title": "Bormio",
-    "heroPlaceId": "bormio-centro",
-    "startTime": "09:00",
-    "travel": "Locale",
+    "title": "Bormio 2000 e Bormio città",
+    "heroPlaceId": "bormio-2000",
+    "startTime": "10:30",
+    "travel": "Spostamenti locali",
     "placeIds": [
+      "bormio-2000",
       "bormio-centro",
-      "forte-venini",
-      "bormio-2000"
-    ],
-    "restaurantIds": [
-      "il-braulio",
-      "la-rasiga",
-      "agriturismo-rini"
+      "forte-venini"
     ],
     "parkingIds": [
       "bormio-centro-parking"
     ],
     "schedule": [
       {
-        "time": "09:00",
-        "title": "Centro storico",
-        "description": "Piazza Cavour, Kuerc, Collegiata e Via Roma."
+        "time": "10:30",
+        "title": "Bormio 2000",
+        "description": "Salita panoramica e passeggiata semplice, senza partire presto."
       },
       {
-        "time": "12:30",
-        "title": "Pranzo",
-        "description": "Centro o Rini."
+        "time": "13:00",
+        "title": "Pausa libera",
+        "description": "Rientro tranquillo e pomeriggio senza tappe obbligatorie."
       },
       {
-        "time": "15:00",
-        "title": "Pomeriggio",
-        "description": "Forte Venini oppure Bormio 2000."
+        "time": "17:30",
+        "title": "Bormio città",
+        "description": "Centro storico, Piazza Cavour, Kuerc, Collegiata e Via Roma nelle ore più piacevoli."
+      },
+      {
+        "time": "facoltativo",
+        "title": "Forte Venini",
+        "description": "Alternativa da usare soltanto se interessa e se resta tempo."
       }
     ],
     "tips": [
-      "Giornata locale anti-traffico."
+      "Il centro di Bormio viene lasciato alla sera, quando la passeggiata è più gradevole."
     ],
     "checklistId": "town"
   },
@@ -88,41 +79,40 @@ export const itinerary = [
     "label": "Sabato 15 agosto",
     "title": "Livigno",
     "heroPlaceId": "lago-livigno",
-    "startTime": "07:15",
-    "travel": "45–60 min per tratta, traffico escluso",
+    "startTime": "10:00",
+    "travel": "Circa 45–60 minuti per tratta, traffico escluso",
     "placeIds": [
       "lago-livigno",
       "livigno-centro"
     ],
-    "restaurantIds": [],
     "parkingIds": [
       "livigno-parking"
     ],
     "schedule": [
       {
-        "time": "07:15",
-        "title": "Partenza",
-        "description": "Prima del grosso dei flussi."
-      },
-      {
-        "time": "08:15",
-        "title": "Parcheggio unico",
-        "description": "Non spostare più l’auto."
-      },
-      {
-        "time": "08:30",
-        "title": "Lago",
-        "description": "Passeggiata breve."
+        "time": "10:00",
+        "title": "Partenza comoda",
+        "description": "Si accetta un possibile parcheggio meno centrale pur di evitare una sveglia molto presto."
       },
       {
         "time": "11:00",
-        "title": "Centro",
-        "description": "Shopping e pranzo."
+        "title": "Parcheggio unico",
+        "description": "Lasciare l’auto e usare piedi o trasporto locale per il resto della giornata."
+      },
+      {
+        "time": "11:30",
+        "title": "Lago o centro",
+        "description": "Scegliere l’ordine in base a traffico, meteo e disponibilità dei parcheggi."
+      },
+      {
+        "time": "pomeriggio",
+        "title": "Passeggiata e shopping",
+        "description": "Programma libero, senza orari serrati."
       }
     ],
     "tips": [
-      "Massimo rischio parcheggio.",
-      "Tenere un piano B."
+      "Ferragosto resta una giornata critica: la partenza comoda può comportare più traffico e un parcheggio più distante.",
+      "Tenere Bormio come piano alternativo se l’accesso è troppo congestionato."
     ],
     "checklistId": "daytrip"
   },
@@ -132,38 +122,34 @@ export const itinerary = [
     "label": "Domenica 16 agosto",
     "title": "Terme",
     "heroPlaceId": "bagni-vecchi",
-    "startTime": "prenotato",
-    "travel": "Locale",
+    "startTime": "10:30 o secondo prenotazione",
+    "travel": "Spostamento locale",
     "placeIds": [
       "bagni-vecchi",
       "bagni-nuovi"
-    ],
-    "restaurantIds": [
-      "umami",
-      "clem-pub"
     ],
     "parkingIds": [
       "terme-parking"
     ],
     "schedule": [
       {
-        "time": "mattina",
-        "title": "Riposo",
-        "description": "Passeggiata breve."
+        "time": "10:30",
+        "title": "Mattina lenta",
+        "description": "Colazione e breve passeggiata prima dell’ingresso."
       },
       {
         "time": "prenotato",
         "title": "Terme",
-        "description": "Bagni Vecchi oppure Bagni Nuovi."
+        "description": "Scegliere Bagni Vecchi oppure Bagni Nuovi e dedicare la giornata al relax."
       },
       {
         "time": "sera",
-        "title": "Cena informale",
-        "description": "Umami o Clem."
+        "title": "Serata libera",
+        "description": "Nessun ristorante associato al giorno: consultare la sezione dedicata."
       }
     ],
     "tips": [
-      "Prenotazione indispensabile."
+      "La prenotazione resta essenziale nel fine settimana di Ferragosto."
     ],
     "checklistId": "spa"
   },
@@ -173,42 +159,42 @@ export const itinerary = [
     "label": "Lunedì 17 agosto",
     "title": "Laghi di Cancano",
     "heroPlaceId": "laghi-cancano",
-    "startTime": "07:30",
-    "travel": "35–50 min fino all’accesso",
+    "startTime": "10:00",
+    "travel": "Circa 35–50 minuti fino all’accesso",
     "placeIds": [
       "torri-fraele",
       "lago-scale",
       "laghi-cancano",
       "lago-san-giacomo"
     ],
-    "restaurantIds": [],
     "parkingIds": [
       "cancano-parking"
     ],
     "schedule": [
       {
-        "time": "07:30",
-        "title": "Partenza",
-        "description": "Controllare accesso."
-      },
-      {
-        "time": "08:15",
-        "title": "Torri e Lago delle Scale",
-        "description": "Soste panoramiche."
-      },
-      {
         "time": "10:00",
-        "title": "Cancano",
-        "description": "Passeggiata lungo le dighe."
+        "title": "Partenza",
+        "description": "Controllare prima accessi, navette e regolazione della strada."
       },
       {
-        "time": "14:00",
-        "title": "San Giacomo",
-        "description": "Solo se resta tempo."
+        "time": "11:00",
+        "title": "Torri di Fraele e Lago delle Scale",
+        "description": "Prime soste panoramiche."
+      },
+      {
+        "time": "12:30",
+        "title": "Cancano",
+        "description": "Passeggiata semplice lungo le dighe."
+      },
+      {
+        "time": "15:00",
+        "title": "San Giacomo facoltativo",
+        "description": "Aggiungerlo soltanto se accesso, meteo ed energie lo consentono."
       }
     ],
     "tips": [
-      "Accessi e navette possono cambiare."
+      "Con una partenza più tarda conviene accettare eventuali navette o parcheggi più lontani.",
+      "Il programma è una proposta, non una sequenza obbligatoria."
     ],
     "checklistId": "easyHike"
   },
@@ -218,40 +204,40 @@ export const itinerary = [
     "label": "Martedì 18 agosto",
     "title": "Bernina e Tirano",
     "heroPlaceId": "alp-grum",
-    "startTime": "in base al treno",
-    "travel": "Bormio–Tirano 45–60 min, poi treno",
+    "startTime": "10:00 circa",
+    "travel": "Bormio–Tirano circa 45–60 minuti, poi treno",
     "placeIds": [
       "tirano",
       "alp-grum"
     ],
-    "restaurantIds": [],
     "parkingIds": [
       "tirano-station-parking"
     ],
     "schedule": [
       {
-        "time": "-90 min",
-        "title": "Partenza",
-        "description": "Calcolare traffico."
+        "time": "10:00",
+        "title": "Partenza da Bormio",
+        "description": "Scegliere un collegamento ferroviario di tarda mattinata compatibile con una partenza comoda."
       },
       {
-        "time": "-45 min",
+        "time": "11:00",
         "title": "Tirano",
-        "description": "Parcheggio e stazione."
+        "description": "Parcheggio e ingresso in stazione con margine."
       },
       {
-        "time": "prenotato",
-        "title": "Treno",
-        "description": "Tirano–Alp Grüm."
+        "time": "tarda mattina",
+        "title": "Treno verso Alp Grüm",
+        "description": "Orario da adattare alla disponibilità reale dei treni."
       },
       {
         "time": "pomeriggio",
-        "title": "Tirano",
-        "description": "Santuario o centro."
+        "title": "Alp Grüm e rientro",
+        "description": "Sosta panoramica; Tirano resta facoltativa se il rientro è tardi."
       }
     ],
     "tips": [
-      "Verificare RhB/SBB e prenotazioni."
+      "Verificare gli orari RhB/SBB prima di confermare questa giornata.",
+      "Una partenza comoda riduce il tempo disponibile a Tirano."
     ],
     "checklistId": "train"
   },
@@ -261,36 +247,39 @@ export const itinerary = [
     "label": "Mercoledì 19 agosto",
     "title": "Val Viola",
     "heroPlaceId": "val-viola",
-    "startTime": "07:30",
-    "travel": "25–40 min fino all’accesso",
+    "startTime": "10:00",
+    "travel": "Circa 25–40 minuti fino ad Arnoga o al punto di accesso",
     "placeIds": [
       "val-viola"
-    ],
-    "restaurantIds": [
-      "baita-dell-all"
     ],
     "parkingIds": [
       "val-viola-parking"
     ],
     "schedule": [
       {
-        "time": "07:30",
+        "time": "10:00",
         "title": "Partenza",
-        "description": "Verificare navetta/pedaggio."
+        "description": "Controllare accesso, navetta e disponibilità delle aree di sosta."
       },
       {
-        "time": "08:15",
+        "time": "11:00",
         "title": "Passeggiata",
-        "description": "Percorso semplice."
+        "description": "Percorso facile, con libertà di accorciarlo."
       },
       {
-        "time": "12:00",
-        "title": "Pranzo",
-        "description": "Rifugio o picnic."
+        "time": "13:30",
+        "title": "Pausa",
+        "description": "Pranzo al sacco o sosta in una struttura aperta, senza prenotarla nel programma."
+      },
+      {
+        "time": "15:30",
+        "title": "Rientro",
+        "description": "Rientro con calma evitando di allungare troppo il percorso."
       }
     ],
     "tips": [
-      "Parcheggio decisivo."
+      "La partenza comoda può richiedere l’uso della navetta o un accesso meno vicino.",
+      "La valle si presta bene a un percorso adattabile."
     ],
     "checklistId": "easyHike"
   },
@@ -300,15 +289,14 @@ export const itinerary = [
     "label": "Giovedì 20 agosto",
     "title": "Val Monastero, Castel Coira e Glorenza",
     "heroPlaceId": "castel-coira",
-    "startTime": "07:00",
-    "travel": "Giornata lunga attraverso lo Stelvio",
+    "startTime": "10:00",
+    "travel": "Prima giornata in Val Venosta; consigliato pernottare fuori",
     "placeIds": [
       "passo-stelvio",
       "mustair",
       "castel-coira",
       "glorenza"
     ],
-    "restaurantIds": [],
     "parkingIds": [
       "mustair-parking",
       "churburg-parking",
@@ -316,29 +304,35 @@ export const itinerary = [
     ],
     "schedule": [
       {
-        "time": "07:00",
-        "title": "Partenza",
-        "description": "Controllare Stelvio e meteo."
+        "time": "10:00",
+        "title": "Partenza da Bormio",
+        "description": "Attraversare lo Stelvio senza prevedere una visita al passo."
       },
       {
-        "time": "09:00",
-        "title": "Müstair",
-        "description": "Monastero e borgo."
+        "time": "12:00",
+        "title": "Val Monastero",
+        "description": "Monastero di San Giovanni e breve passeggiata a Müstair."
       },
       {
-        "time": "prenotato",
+        "time": "pomeriggio",
         "title": "Castel Coira",
-        "description": "Tappa vincolante."
+        "description": "Usare l’orario della visita come unico vincolo della giornata."
       },
       {
-        "time": "16:30",
+        "time": "tardo pomeriggio",
         "title": "Glorenza",
-        "description": "Mura e centro."
+        "description": "Passeggiata libera tra mura e centro storico."
+      },
+      {
+        "time": "sera",
+        "title": "Pernottamento fuori",
+        "description": "Per comodità è consigliato dormire una notte in zona Glorenza, Malles o alta Val Venosta."
       }
     ],
     "tips": [
-      "Documento valido per espatrio.",
-      "Castel Coira è il perno."
+      "Dormire fuori rende molto più comodi sia questo giorno sia la visita al Lago di Resia del giorno successivo.",
+      "Portare un documento valido per la Svizzera.",
+      "Controllare viabilità e meteo dello Stelvio."
     ],
     "checklistId": "crossBorder"
   },
@@ -348,42 +342,46 @@ export const itinerary = [
     "label": "Venerdì 21 agosto",
     "title": "Lago di Resia, Curon e Malles",
     "heroPlaceId": "lago-resia",
-    "startTime": "07:30",
-    "travel": "Giornata lunga attraverso lo Stelvio",
+    "startTime": "10:30",
+    "travel": "Seconda giornata in Val Venosta; partenza consigliata dal pernottamento fuori",
     "placeIds": [
-      "passo-stelvio",
       "lago-resia",
       "curon",
       "malles"
     ],
-    "restaurantIds": [],
     "parkingIds": [
       "resia-parking"
     ],
     "schedule": [
       {
-        "time": "07:30",
-        "title": "Partenza",
-        "description": "Controllo viabilità."
+        "time": "10:30",
+        "title": "Partenza dalla Val Venosta",
+        "description": "Programma pensato assumendo una notte fuori tra il 20 e il 21."
       },
       {
-        "time": "10:00",
-        "title": "Lago di Resia",
-        "description": "Campanile sommerso."
+        "time": "11:15",
+        "title": "Lago di Resia e Curon",
+        "description": "Campanile sommerso e passeggiata breve sul lago."
       },
       {
-        "time": "14:00",
-        "title": "Lungolago",
-        "description": "Solo un tratto."
+        "time": "14:30",
+        "title": "Tempo libero",
+        "description": "Continuare il lungolago oppure fermarsi a Curon."
       },
       {
         "time": "16:00",
-        "title": "Malles",
-        "description": "Facoltativa."
+        "title": "Malles facoltativa",
+        "description": "Inserirla solo se resta voglia prima del rientro a Bormio."
+      },
+      {
+        "time": "sera",
+        "title": "Rientro a Bormio",
+        "description": "Rientro con calma dopo avere verificato la strada dello Stelvio."
       }
     ],
     "tips": [
-      "Non aggiungere troppe soste."
+      "Senza pernottamento fuori, la giornata diventa molto più lunga e richiede una partenza anticipata: per questo la notte in Val Venosta è la soluzione consigliata.",
+      "Non è necessario completare tutte le tappe."
     ],
     "checklistId": "daytrip"
   },
@@ -393,42 +391,41 @@ export const itinerary = [
     "label": "Sabato 22 agosto",
     "title": "St. Moritz ed Engadina",
     "heroPlaceId": "st-moritz",
-    "startTime": "07:30",
-    "travel": "1h45–2h per tratta",
+    "startTime": "10:00",
+    "travel": "Circa 1 ora e 45–2 ore per tratta",
     "placeIds": [
       "st-moritz",
       "silvaplana",
       "sils-maria"
     ],
-    "restaurantIds": [],
     "parkingIds": [
       "stmoritz-parking"
     ],
     "schedule": [
       {
-        "time": "07:30",
+        "time": "10:00",
         "title": "Partenza",
-        "description": "Controllare viabilità."
+        "description": "Giornata lunga ma con partenza volutamente comoda."
       },
       {
-        "time": "09:45",
+        "time": "12:00",
         "title": "St. Moritz",
-        "description": "Lago e centro."
+        "description": "Lago e centro, lasciando l’auto in un solo parcheggio."
       },
       {
-        "time": "14:30",
+        "time": "15:30",
         "title": "Silvaplana",
-        "description": "Passeggiata."
+        "description": "Breve passeggiata sul lago."
       },
       {
-        "time": "16:00",
-        "title": "Sils Maria",
-        "description": "Facoltativa."
+        "time": "17:00",
+        "title": "Sils Maria facoltativa",
+        "description": "Aggiungerla solo se non rende il rientro troppo pesante."
       }
     ],
     "tips": [
-      "Roaming Svizzera da verificare.",
-      "Parcheggi costosi e sabato affollato."
+      "Portare un documento valido e verificare il roaming in Svizzera.",
+      "Il sabato può essere affollato: il programma resta flessibile."
     ],
     "checklistId": "crossBorder"
   }

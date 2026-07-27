@@ -8,7 +8,6 @@ export const restaurants = [
       "longitude": 10.36,
       "approximate": true
     },
-    "priceRange": "€€",
     "cuisine": "Tipica e après-ski",
     "description": "Locale panoramico sulle piste, adatto a pranzo o aperitivo secondo apertura.",
     "recommendedDishes": [
@@ -41,7 +40,6 @@ export const restaurants = [
       "longitude": 10.3594,
       "approximate": true
     },
-    "priceRange": "€€€",
     "cuisine": "Valtellinese",
     "description": "Il “Da Mario fronte pista” indicato dall’utente; verificare accesso estivo.",
     "recommendedDishes": [
@@ -74,7 +72,6 @@ export const restaurants = [
       "longitude": 10.367,
       "approximate": true
     },
-    "priceRange": "€€",
     "cuisine": "Pizza",
     "description": "Scelta informale vicino alle terme, prenotazione consigliata.",
     "recommendedDishes": [
@@ -106,7 +103,6 @@ export const restaurants = [
       "longitude": 10.373,
       "approximate": true
     },
-    "priceRange": "€",
     "cuisine": "Pub",
     "description": "Locale storico per birra, hamburger, panini e serate sportive.",
     "recommendedDishes": [
@@ -139,7 +135,6 @@ export const restaurants = [
       "longitude": 10.3729,
       "approximate": true
     },
-    "priceRange": "€€",
     "cuisine": "Valtellinese",
     "description": "Ristorante centrale comodo durante la giornata a Bormio.",
     "recommendedDishes": [
@@ -172,7 +167,6 @@ export const restaurants = [
       "longitude": 10.3697,
       "approximate": true
     },
-    "priceRange": "€€€",
     "cuisine": "Tradizionale",
     "description": "Cena tradizionale completa.",
     "recommendedDishes": [
@@ -205,7 +199,6 @@ export const restaurants = [
       "longitude": 10.3755,
       "approximate": true
     },
-    "priceRange": "€€",
     "cuisine": "Tradizionale e pizzeria",
     "description": "Locale caratteristico vicino al centro.",
     "recommendedDishes": [
@@ -238,7 +231,6 @@ export const restaurants = [
       "longitude": 10.3657,
       "approximate": true
     },
-    "priceRange": "€€€",
     "cuisine": "Agriturismo",
     "description": "Cucina legata all’azienda agricola e ai prodotti locali.",
     "recommendedDishes": [
@@ -271,7 +263,6 @@ export const restaurants = [
       "longitude": 10.256,
       "approximate": true
     },
-    "priceRange": "€€€",
     "cuisine": "Agriturismo di montagna",
     "description": "Baita in una valletta sotto la strada per Livigno. Accesso da verificare: strada stretta o passeggiata.",
     "recommendedDishes": [

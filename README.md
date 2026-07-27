@@ -55,3 +55,14 @@ Dopo l'aggiornamento:
 2. fare commit;
 3. attendere il completamento del deploy GitHub Pages;
 4. su iPhone chiudere Safari o rimuovere e reinstallare la PWA, perché la vecchia versione può essere nella cache.
+
+
+## Versione 3
+
+- Rimossi i riferimenti ai costi.
+- Ristoranti separati dalle singole giornate.
+- Sezione Luoghi indipendente dalla proposta di pianificazione.
+- Partenze normalmente previste tra le 10:00 e le 11:00.
+- 14 agosto: Bormio 2000 al mattino e centro di Bormio verso sera.
+- 20–21 agosto: proposta con pernottamento di una notte in Val Venosta.
+- Il programma è esplicitamente presentato come modificabile.
