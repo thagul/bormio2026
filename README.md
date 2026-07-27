@@ -121,3 +121,12 @@ Dopo l'aggiornamento:
 - Il filtro attivo ha sfondo pieno, testo bianco, ombra e segno di spunta.
 - Toccando nuovamente il filtro selezionato si torna a mostrare tutti i luoghi.
 - Migliorati focus, accessibilità e scorrimento orizzontale su iPhone.
+
+
+## Versione 10 – filtri unificati
+
+- Luoghi e Food utilizzano lo stesso componente grafico.
+- Stesso sfondo, bordo, spaziatura, stato attivo, ombra e segno di spunta.
+- Entrambe le sezioni permettono di annullare il filtro toccando nuovamente quello attivo.
+- Il pulsante `Tutti` ripristina sempre l'elenco completo.
+- Aggiunti `aria-pressed` e focus visibile anche ai filtri Food.
