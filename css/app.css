@@ -347,3 +347,10 @@ a.card:visited {
 .filter-icon {
   line-height: 1;
 }
+
+.tabbar {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.parking-card + .parking-card {
+  margin-top: 12px;
+}

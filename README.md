@@ -130,3 +130,12 @@ Dopo l'aggiornamento:
 - Entrambe le sezioni permettono di annullare il filtro toccando nuovamente quello attivo.
 - Il pulsante `Tutti` ripristina sempre l'elenco completo.
 - Aggiunti `aria-pressed` e focus visibile anche ai filtri Food.
+
+
+## Versione 11 – navigazione semplificata
+
+- Rimossa completamente la sezione `Info`.
+- Rimossa completamente la sezione `Preferiti`.
+- Navigazione ridotta a Home, Luoghi, Proposta e Food.
+- Inseriti parcheggi e indicazioni di accesso direttamente nelle schede dei luoghi.
+- Aggiunto il riquadro `Da sapere` nelle schede dei luoghi.
