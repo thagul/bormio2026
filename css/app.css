@@ -15,3 +15,5 @@
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+
+.food-filter-bar{display:flex;gap:10px;overflow-x:auto;padding:4px 2px 14px;margin-bottom:8px;scrollbar-width:none}.food-filter-bar::-webkit-scrollbar{display:none}.food-filter{flex:0 0 auto;border:1px solid var(--line);background:var(--surface);color:var(--text);padding:10px 14px;border-radius:999px;font:inherit;font-weight:700;display:flex;gap:7px;align-items:center}.food-filter.active{background:var(--text);color:var(--surface);border-color:var(--text)}.food-badges{margin:4px 0 12px}.food-badge{font-size:.74rem}.food-badge.featured{background:rgba(186,104,75,.14);border-color:rgba(186,104,75,.35);color:var(--accent)}.food-card .button{margin-top:auto}.food-card{display:flex;flex-direction:column}.food-card>img{aspect-ratio:16/10;object-fit:cover}

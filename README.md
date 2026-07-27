@@ -75,3 +75,12 @@ Dopo l'aggiornamento:
 - Le fotografie dei luoghi provengono da Wikimedia Commons.
 - Le schede mostrano fonte e licenza delle fotografie.
 - Le vecchie illustrazioni locali restano come fallback in caso di mancato caricamento.
+
+
+## Versione 5 – guida Food
+
+- Sezione Food riorganizzata con badge e filtri.
+- Nessuna categoria colazione e nessun suggerimento associato ai giorni.
+- Aggiunti Al Fiume, Al Filò, Osteria La Bajona, Osteria de I Magri ed Enoteca Guanella.
+- Aggiunta mappa complessiva dei locali.
+- Il badge “Da non perdere” è editoriale e non rappresenta una graduatoria numerica.
