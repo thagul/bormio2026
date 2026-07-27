@@ -113,3 +113,11 @@ Dopo l'aggiornamento:
 - La galleria mostra esterno, interno e piatto quando disponibili.
 - Aggiornati i collegamenti ai siti ufficiali o alle schede ufficiali di Bormio Turismo.
 - Rigenerati i link Apple Maps e Google Maps.
+
+
+## Versione 9 – filtri della sezione Luoghi
+
+- Aggiunto il filtro `Tutti`.
+- Il filtro attivo ha sfondo pieno, testo bianco, ombra e segno di spunta.
+- Toccando nuovamente il filtro selezionato si torna a mostrare tutti i luoghi.
+- Migliorati focus, accessibilità e scorrimento orizzontale su iPhone.

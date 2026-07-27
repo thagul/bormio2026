@@ -235,3 +235,51 @@ a.card:visited {
     height: 250px;
   }
 }
+
+.place-filter-bar {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 4px 2px 10px;
+  margin: 10px 0 18px;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+.place-filter-bar::-webkit-scrollbar {
+  display: none;
+}
+.filter-chip {
+  appearance: none;
+  border: 1px solid rgba(92, 111, 138, .28);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color .18s ease, border-color .18s ease, color .18s ease, transform .18s ease, box-shadow .18s ease;
+}
+.filter-chip:hover {
+  border-color: var(--accent);
+}
+.filter-chip:active {
+  transform: scale(.97);
+}
+.filter-chip.active,
+.filter-chip[aria-pressed="true"] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  box-shadow: 0 6px 18px rgba(56, 93, 138, .24);
+}
+.filter-chip.active::before {
+  content: "✓";
+  display: inline-block;
+  margin-right: 6px;
+  font-weight: 900;
+}
+.filter-chip:focus-visible {
+  outline: 3px solid rgba(56, 93, 138, .28);
+  outline-offset: 2px;
+}
+.place-card[hidden] {
+  display: none !important;
+}
