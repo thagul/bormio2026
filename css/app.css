@@ -190,3 +190,48 @@ a.card:visited {
     grid-template-columns: 1fr;
   }
 }
+
+.restaurant-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 22px 0 28px;
+}
+.restaurant-gallery-item {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 18px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.restaurant-gallery-item img {
+  display: block;
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+.restaurant-gallery-item figcaption {
+  padding: 10px 12px;
+  color: var(--muted);
+  font-size: .82rem;
+  font-weight: 700;
+}
+.restaurant-actions {
+  margin: 16px 0 22px;
+  flex-wrap: wrap;
+}
+@media (max-width: 760px) {
+  .restaurant-gallery {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 8px;
+  }
+  .restaurant-gallery-item {
+    min-width: 82%;
+    scroll-snap-align: start;
+  }
+  .restaurant-gallery-item img {
+    height: 250px;
+  }
+}

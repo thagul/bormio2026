@@ -105,3 +105,11 @@ Dopo l'aggiornamento:
   - elementi da osservare;
   - atmosfera e curiosità;
   - consigli pratici della guida.
+
+
+## Versione 8 – galleria ristoranti
+
+- Aggiunte fotografie reali alle schede dei ristoranti.
+- La galleria mostra esterno, interno e piatto quando disponibili.
+- Aggiornati i collegamenti ai siti ufficiali o alle schede ufficiali di Bormio Turismo.
+- Rigenerati i link Apple Maps e Google Maps.
