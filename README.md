@@ -139,3 +139,14 @@ Dopo l'aggiornamento:
 - Navigazione ridotta a Home, Luoghi, Proposta e Food.
 - Inseriti parcheggi e indicazioni di accesso direttamente nelle schede dei luoghi.
 - Aggiunto il riquadro `Da sapere` nelle schede dei luoghi.
+
+
+## Versione 12 – rifiniture premium
+
+- Hero fotografici a tutto schermo nelle schede di luoghi e ristoranti.
+- Transizioni fluide tra le pagine.
+- Marker Leaflet personalizzati per luoghi, ristoranti, parcheggi e categorie.
+- Pulsante per mostrare la posizione corrente, soltanto dopo il consenso dell'utente.
+- Modalità scura completa con superfici, mappe, pulsanti e tab bar ottimizzati.
+- Cache PWA aggiornata con strategia stale-while-revalidate e fallback offline.
+- Supporto a `prefers-reduced-motion`.
