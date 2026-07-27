@@ -14,8 +14,8 @@ const favorites=()=>JSON.parse(localStorage.getItem('bormio:favorites')||'[]');
 const isFav=id=>favorites().includes(id);
 function toggleFavorite(id){const set=new Set(favorites());set.has(id)?set.delete(id):set.add(id);localStorage.setItem('bormio:favorites',JSON.stringify([...set]));showToast(set.has(id)?'Aggiunto ai preferiti':'Rimosso dai preferiti');render();}
 function showToast(message){toast.textContent=message;toast.classList.add('show');setTimeout(()=>toast.classList.remove('show'),1700)}
-function image(item){return item?.localAsset||item?.heroImage||settings.app.fallbackHero}
-function imageTag(item,alt,cls=''){return `<img class="${cls}" src="${esc(image(item))}" data-fallback="${esc(item?.heroImage||settings.app.fallbackHero)}" alt="${esc(alt)}" loading="lazy">`}
+function image(item){return item?.localAsset||item?.heroImage||item?.fallbackImage||settings.app.fallbackHero}
+function imageTag(item,alt,cls=''){return `<img class="${cls}" src="${esc(image(item))}" data-fallback="${esc(item?.fallbackImage||settings.app.fallbackHero||'')}" alt="${esc(alt)}" loading="lazy">`}
 function mapButtons(item){return `<div class="button-row"><a class="button" target="_blank" rel="noopener" href="${item.maps.directionsApple}">Apple Maps</a><a class="button secondary" target="_blank" rel="noopener" href="${item.maps.directionsGoogle}">Google Maps</a></div>`}
 function favoriteButton(id){return `<button class="favorite ${isFav(id)?'active':''}" data-favorite="${id}" aria-label="Preferito">${isFav(id)?'★':'☆'}</button>`}
 function currentTripStatus(){const now=new Date();const start=new Date(settings.trip.startDate+'T00:00:00');const end=new Date(settings.trip.endDate+'T23:59:59');if(now<start)return {type:'before',days:Math.ceil((start-now)/86400000)};if(now>end)return {type:'after'};const iso=now.toLocaleDateString('en-CA',{timeZone:settings.trip.timezone});return {type:'during',day:itinerary.find(d=>d.date===iso)}}

@@ -41,3 +41,17 @@ Orari, tariffe, parcheggi, accessi estivi e viabilità devono essere verificati 
 ## Restyling v2
 
 La versione include una palette blu polvere/terracotta e immagini locali WebP per tutti i luoghi e ristoranti. Le immagini sono illustrazioni originali generate per il progetto e funzionano offline.
+
+
+## Correzione GitHub Pages
+
+Questa versione usa percorsi relativi (`./assets/...`) per tutte le immagini.
+È quindi compatibile con un Project Site pubblicato sotto:
+
+`https://USERNAME.github.io/NOME-REPOSITORY/`
+
+Dopo l'aggiornamento:
+1. sostituire tutti i file del repository;
+2. fare commit;
+3. attendere il completamento del deploy GitHub Pages;
+4. su iPhone chiudere Safari o rimuovere e reinstallare la PWA, perché la vecchia versione può essere nella cache.

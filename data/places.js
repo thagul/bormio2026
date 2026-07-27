@@ -10,7 +10,7 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1225,
-    "heroImage": "/assets/images/places/bormio-centro.webp",
+    "heroImage": "./assets/images/places/bormio-centro.webp",
     "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "description": "Centro medievale raccolto, ideale da visitare a piedi tra piazze, chiese, portali e botteghe.",
     "highlights": [
@@ -47,7 +47,7 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1730,
-    "heroImage": "/assets/images/places/forte-venini.webp",
+    "heroImage": "./assets/images/places/forte-venini.webp",
     "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "description": "Fortificazione della Prima guerra mondiale con panorama sulla conca di Bormio.",
     "highlights": [
@@ -82,7 +82,7 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1952,
-    "heroImage": "/assets/images/places/bormio-2000.webp",
+    "heroImage": "./assets/images/places/bormio-2000.webp",
     "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "description": "Area panoramica raggiungibile con strada o impianti, adatta a soste e passeggiate semplici.",
     "highlights": [
@@ -117,7 +117,7 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1816,
-    "heroImage": "/assets/images/places/livigno-centro.webp",
+    "heroImage": "./assets/images/places/livigno-centro.webp",
     "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "description": "Località d’alta quota con lungo centro commerciale e servizi turistici. A Ferragosto partire molto presto.",
     "highlights": [
@@ -153,7 +153,7 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1805,
-    "heroImage": "/assets/images/places/lago-livigno.webp",
+    "heroImage": "./assets/images/places/lago-livigno.webp",
     "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "description": "Bacino alpino a nord del paese, adatto a una passeggiata panoramica.",
     "highlights": [
@@ -188,7 +188,7 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1375,
-    "heroImage": "/assets/images/places/bagni-vecchi.webp",
+    "heroImage": "./assets/images/places/bagni-vecchi.webp",
     "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "description": "Complesso termale storico con vasche, grotte e viste panoramiche.",
     "highlights": [
@@ -223,7 +223,7 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1330,
-    "heroImage": "/assets/images/places/bagni-nuovi.webp",
+    "heroImage": "./assets/images/places/bagni-nuovi.webp",
     "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "description": "Centro termale ampio con giardini e numerose vasche interne ed esterne.",
     "highlights": [
@@ -258,7 +258,7 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1941,
-    "heroImage": "/assets/images/places/torri-fraele.webp",
+    "heroImage": "./assets/images/places/torri-fraele.webp",
     "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "description": "Torri medievali all’ingresso della Valle di Fraele.",
     "highlights": [
@@ -292,7 +292,7 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1940,
-    "heroImage": "/assets/images/places/lago-scale.webp",
+    "heroImage": "./assets/images/places/lago-scale.webp",
     "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "description": "Piccolo lago naturale vicino alle Torri di Fraele.",
     "highlights": [
@@ -326,7 +326,7 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1900,
-    "heroImage": "/assets/images/places/laghi-cancano.webp",
+    "heroImage": "./assets/images/places/laghi-cancano.webp",
     "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "description": "Grandi bacini artificiali circondati da strade bianche e passeggiate con poco dislivello. Accesso estivo spesso regolamentato.",
     "highlights": [
@@ -361,7 +361,7 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1949,
-    "heroImage": "/assets/images/places/lago-san-giacomo.webp",
+    "heroImage": "./assets/images/places/lago-san-giacomo.webp",
     "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "description": "Bacino superiore della Valle di Fraele, ampio e panoramico.",
     "highlights": [
@@ -396,7 +396,7 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 441,
-    "heroImage": "/assets/images/places/tirano.webp",
+    "heroImage": "./assets/images/places/tirano.webp",
     "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "description": "Capolinea italiano della Ferrovia del Bernina; utile abbinare Santuario e centro storico.",
     "highlights": [
@@ -431,7 +431,7 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 2091,
-    "heroImage": "/assets/images/places/alp-grum.webp",
+    "heroImage": "./assets/images/places/alp-grum.webp",
     "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "description": "Stazione panoramica raggiungibile in treno, affacciata su Valposchiavo e ghiacciaio del Palü.",
     "highlights": [
@@ -466,7 +466,7 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 2050,
-    "heroImage": "/assets/images/places/val-viola.webp",
+    "heroImage": "./assets/images/places/val-viola.webp",
     "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "description": "Valle ampia con strada agro-silvo-pastorale, adatta a cammino semplice ma prolungato. Parcheggi e navette sono il punto critico.",
     "highlights": [
@@ -502,7 +502,7 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 2757,
-    "heroImage": "/assets/images/places/passo-stelvio.webp",
+    "heroImage": "./assets/images/places/passo-stelvio.webp",
     "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "description": "Usato come collegamento verso la Val Venosta, senza visita dedicata. Strada impegnativa con molti tornanti.",
     "highlights": [
@@ -537,7 +537,7 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1247,
-    "heroImage": "/assets/images/places/mustair.webp",
+    "heroImage": "./assets/images/places/mustair.webp",
     "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "description": "Monastero benedettino patrimonio UNESCO con importanti affreschi altomedievali.",
     "highlights": [
@@ -572,7 +572,7 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 921,
-    "heroImage": "/assets/images/places/castel-coira.webp",
+    "heroImage": "./assets/images/places/castel-coira.webp",
     "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "description": "Castello rinascimentale celebre per l’armeria; gli orari delle visite sono vincolanti.",
     "highlights": [
@@ -607,7 +607,7 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 907,
-    "heroImage": "/assets/images/places/glorenza.webp",
+    "heroImage": "./assets/images/places/glorenza.webp",
     "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "description": "Piccola città murata della Val Venosta, perfetta per una passeggiata dopo Castel Coira.",
     "highlights": [
@@ -642,7 +642,7 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1498,
-    "heroImage": "/assets/images/places/lago-resia.webp",
+    "heroImage": "./assets/images/places/lago-resia.webp",
     "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "description": "Grande lago artificiale famoso per il campanile della vecchia Curon.",
     "highlights": [
@@ -677,7 +677,7 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1520,
-    "heroImage": "/assets/images/places/curon.webp",
+    "heroImage": "./assets/images/places/curon.webp",
     "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "description": "Paese legato alla storia dell’abitato sommerso dalla diga.",
     "highlights": [
@@ -712,7 +712,7 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1050,
-    "heroImage": "/assets/images/places/malles.webp",
+    "heroImage": "./assets/images/places/malles.webp",
     "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "description": "Borgo dell’alta Val Venosta con torri e chiese, tappa facoltativa.",
     "highlights": [
@@ -747,7 +747,7 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1822,
-    "heroImage": "/assets/images/places/st-moritz.webp",
+    "heroImage": "./assets/images/places/st-moritz.webp",
     "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "description": "Località elegante sul lago. Conviene scegliere un parcheggio e muoversi a piedi.",
     "highlights": [
@@ -782,7 +782,7 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1815,
-    "heroImage": "/assets/images/places/silvaplana.webp",
+    "heroImage": "./assets/images/places/silvaplana.webp",
     "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "description": "Borgo sul lago, adatto a una passeggiata pianeggiante.",
     "highlights": [
@@ -817,7 +817,7 @@ export const places = [
       "approximate": true
     },
     "altitudeMeters": 1809,
-    "heroImage": "/assets/images/places/sils-maria.webp",
+    "heroImage": "./assets/images/places/sils-maria.webp",
     "fallbackImage": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=1600",
     "description": "Borgo tranquillo tra i laghi di Sils e Silvaplana.",
     "highlights": [

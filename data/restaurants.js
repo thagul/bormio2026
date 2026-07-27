@@ -17,7 +17,7 @@ export const restaurants = [
       "Polenta",
       "Aperitivo"
     ],
-    "heroImage": "/assets/images/restaurants/al-ciuk.webp",
+    "heroImage": "./assets/images/restaurants/al-ciuk.webp",
     "fallbackImage": "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1200",
     "officialUrl": "https://www.baitademario.com/ciuk-apres-ski/",
     "maps": {
@@ -50,7 +50,7 @@ export const restaurants = [
       "Selvaggina",
       "Dolci"
     ],
-    "heroImage": "/assets/images/restaurants/baita-de-mario.webp",
+    "heroImage": "./assets/images/restaurants/baita-de-mario.webp",
     "fallbackImage": "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1200",
     "officialUrl": "https://www.baitademario.com/",
     "maps": {
@@ -82,7 +82,7 @@ export const restaurants = [
       "Fritti",
       "Birra"
     ],
-    "heroImage": "/assets/images/restaurants/umami.webp",
+    "heroImage": "./assets/images/restaurants/umami.webp",
     "fallbackImage": "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1200",
     "officialUrl": null,
     "maps": {
@@ -115,7 +115,7 @@ export const restaurants = [
       "Birre",
       "Piatti unici"
     ],
-    "heroImage": "/assets/images/restaurants/clem-pub.webp",
+    "heroImage": "./assets/images/restaurants/clem-pub.webp",
     "fallbackImage": "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1200",
     "officialUrl": "https://clempub.it/",
     "maps": {
@@ -148,7 +148,7 @@ export const restaurants = [
       "Bresaola",
       "Braulio"
     ],
-    "heroImage": "/assets/images/restaurants/il-braulio.webp",
+    "heroImage": "./assets/images/restaurants/il-braulio.webp",
     "fallbackImage": "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1200",
     "officialUrl": null,
     "maps": {
@@ -181,7 +181,7 @@ export const restaurants = [
       "Taroz",
       "Carni"
     ],
-    "heroImage": "/assets/images/restaurants/la-rasiga.webp",
+    "heroImage": "./assets/images/restaurants/la-rasiga.webp",
     "fallbackImage": "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1200",
     "officialUrl": null,
     "maps": {
@@ -214,7 +214,7 @@ export const restaurants = [
       "Carni",
       "Dolci"
     ],
-    "heroImage": "/assets/images/restaurants/vecchia-combo.webp",
+    "heroImage": "./assets/images/restaurants/vecchia-combo.webp",
     "fallbackImage": "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1200",
     "officialUrl": null,
     "maps": {
@@ -247,7 +247,7 @@ export const restaurants = [
       "Sciatt",
       "Carni"
     ],
-    "heroImage": "/assets/images/restaurants/agriturismo-rini.webp",
+    "heroImage": "./assets/images/restaurants/agriturismo-rini.webp",
     "fallbackImage": "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1200",
     "officialUrl": "https://www.agriturismorini.com/",
     "maps": {
@@ -280,7 +280,7 @@ export const restaurants = [
       "Carni",
       "Dolci"
     ],
-    "heroImage": "/assets/images/restaurants/baita-dell-all.webp",
+    "heroImage": "./assets/images/restaurants/baita-dell-all.webp",
     "fallbackImage": "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1200",
     "officialUrl": null,
     "maps": {
