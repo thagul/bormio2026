@@ -84,3 +84,12 @@ Dopo l'aggiornamento:
 - Aggiunti Al Fiume, Al Filò, Osteria La Bajona, Osteria de I Magri ed Enoteca Guanella.
 - Aggiunta mappa complessiva dei locali.
 - Il badge “Da non perdere” è editoriale e non rappresenta una graduatoria numerica.
+
+
+## Versione 6 – correzioni Home
+
+- Corretto lo stile dei link usati come card.
+- Ridisegnati i box Proposta di pianificazione e Preferiti.
+- Migliorata la disposizione responsive delle statistiche iniziali.
+- Aggiunti stati hover, focus e tap coerenti.
+- Aggiornata la cache PWA.
