@@ -93,3 +93,15 @@ Dopo l'aggiornamento:
 - Migliorata la disposizione responsive delle statistiche iniziali.
 - Aggiunti stati hover, focus e tap coerenti.
 - Aggiornata la cache PWA.
+
+
+## Versione 7 – schede guida turistica
+
+- Rimossi tempo di visita e momento consigliato dalle schede dei luoghi.
+- Mantenuti soltanto quota, tipologia di esperienza e categoria.
+- Ampliate tutte le descrizioni con:
+  - contesto e identità del luogo;
+  - motivi per visitarlo;
+  - elementi da osservare;
+  - atmosfera e curiosità;
+  - consigli pratici della guida.
