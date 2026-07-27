@@ -1,0 +1,16 @@
+# Apache: riscrittura per Single Page Application.
+# I file esistenti vengono serviti normalmente, tutto il resto va a index.html.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+<IfModule mod_headers.c>
+  <FilesMatch "service-worker\.js$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>

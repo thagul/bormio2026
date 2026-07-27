@@ -1,0 +1,43 @@
+# Bormio Trip App
+
+Web app statica/PWA per la vacanza a Bormio dal 13 al 22 agosto 2026.
+
+## Avvio locale
+
+I moduli ES6 e il service worker richiedono un server HTTP:
+
+```bash
+python3 -m http.server 8080
+```
+
+Aprire `http://localhost:8080`.
+
+## Pubblicazione GitHub Pages
+
+1. Creare un repository e caricare tutti i file.
+2. Settings → Pages → Deploy from a branch.
+3. Scegliere `main` e cartella `/root`.
+
+Nota: GitHub Pages rende il sito pubblico, anche quando il repository è privato. Per vera privacy serve un hosting con autenticazione lato server/edge (ad esempio Cloudflare Access) oppure non pubblicare il sito.
+
+## Funzioni
+
+- SPA con hash routing, robusta sugli hosting statici.
+- PWA installabile su iPhone.
+- Itinerario e schede dettagliate.
+- Mappe Leaflet/OpenStreetMap.
+- Apple Maps e Google Maps.
+- Ricerca globale.
+- Preferiti e checklist in LocalStorage.
+- Dark mode automatica.
+
+## Dati e immagini
+
+Le immagini remote sono rappresentative. L’app prova prima i file locali indicati da `localAsset` e usa gli URL remoti come fallback. Per una vera esperienza offline, aggiungere immagini WebP nelle cartelle indicate dai dataset.
+
+Orari, tariffe, parcheggi, accessi estivi e viabilità devono essere verificati sui siti ufficiali prima del viaggio.
+
+
+## Restyling v2
+
+La versione include una palette blu polvere/terracotta e immagini locali WebP per tutti i luoghi e ristoranti. Le immagini sono illustrazioni originali generate per il progetto e funzionano offline.
